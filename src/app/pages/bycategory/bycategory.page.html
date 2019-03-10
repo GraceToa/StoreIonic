@@ -1,0 +1,33 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot= "start" (click)="goBack()">
+        <ion-icon name="arrow-round-back" ></ion-icon>
+    </ion-buttons>
+    <ion-title text-center>{{bycategory.linea}}</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content >
+  <ion-list>
+
+    <ion-item *ngFor="let item of _ps.bycategories" >
+
+        <ion-thumbnail item-left>
+          <img [src]="item.codigo | image">
+        </ion-thumbnail>
+
+        <ion-label >
+         <ion-text >
+           <h2>{{item.producto}}</h2>
+         </ion-text>
+         <p>{{item.proveedor}}</p>
+       </ion-label>
+
+       <ion-button color="primary" (click)="getProduct(item)">
+         <ion-icon slot="end" name="arrow-round-forward"></ion-icon>
+       </ion-button>
+
+    </ion-item>
+  </ion-list>
+
+</ion-content>

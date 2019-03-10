@@ -1,0 +1,31 @@
+ion-content{
+    --ion-background-color:gray;
+}
+.color_log {
+  height: 80%;
+  width:  90%;
+  display: block;
+  vertical-align: middle;
+  margin-top: 60px;
+  margin-left: 20px;
+  margin-right: 30px;
+}
+
+ion-item {
+      border-radius: 30px !important;
+      padding-left: 30px !important;
+      padding-right: 30px !important;
+      font-size: 0.9em;
+      margin-bottom: 10px;
+      border: 1px solid #ffffff;
+      border-bottom: 0px !important;
+      box-shadow: none !important;
+  }
+  .rounded{
+      --border-radius: 5px;
+    --box-shadow: 0px 14px 25px rgba(255,255,255, 0.3);
+  }
+
+  .round{
+    border-radius:5px!important;
+  }

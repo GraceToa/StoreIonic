@@ -1,0 +1,48 @@
+<ion-header >
+  <ion-toolbar >
+    <ion-button slot="end"(click)="showProfile()" *ngIf="_us.active()" fill="outline:none">
+         <ion-icon name="person" style="color: #FFF" ></ion-icon>
+    </ion-button>
+
+    <ion-button slot="end"(click)="_us.close_sesion()" *ngIf="_us.active()" fill="outline:none">
+         <ion-icon name="remove-circle-outline" style="color: #F76679" ></ion-icon>
+    </ion-button>
+
+    <ion-button slot= "start" color="medium" (click)="show_store()" fill="outline:none">
+        <ion-icon name="cart" style="color: #FFF"></ion-icon>
+    </ion-button>
+    &nbsp;  &nbsp;
+
+    <ion-badge color="danger" class="car_number" *ngIf="_ss.items.length > 0">
+      {{_ss.items.length}}
+    </ion-badge>
+
+      <ion-title text-center *ngIf="_us.active()">
+      {{user.nombre}}
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+
+  <ion-grid>
+    <ion-row>
+      <ion-col size="4"  *ngFor="let item of _ps.productos">
+        <img [src]="item.codigo | image" width="120" height="120" (click)="getProduct(item)">
+        <p>
+          {{item.producto}}
+          <br>
+         <span style="color: #F76679">{{item.precio_compra | currency: 'USD': 'symbol'}}</span>
+        </p>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+  <ion-infinite-scroll (ionInfinite)="nextPage($event)">
+    <ion-infinite-scroll-content
+      loadingSpinner="bubbles"
+      loadingText="Loading more data...">
+    </ion-infinite-scroll-content>
+  </ion-infinite-scroll>
+
+</ion-content>

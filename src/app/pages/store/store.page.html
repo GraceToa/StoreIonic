@@ -1,0 +1,53 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title text-center>Store</ion-title>
+    <ion-buttons slot= "start" (click)="closeModal()">
+        <ion-icon name="arrow-round-back" color="white" ></ion-icon>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  <div text-center class="car_empty" *ngIf="_ss.items.length === 0">
+  <ion-icon name="cart" class="icon-5x" style="color: #F4F4B5"></ion-icon>
+  <br>
+  <p style="color:white">Your shopping car its empty¡¡</p>
+  </div>
+
+  <div *ngIf="_ss.items.length != 0">
+    <ion-grid>
+      <!-- item array  esta alojado en local storage cap let i index (para borrar) -->
+      <ion-row *ngFor="let item of _ss.items; let i = index;">
+        <ion-col>
+          <img [src]="item.codigo | image" width="120" height="120" >
+        </ion-col>
+        <ion-col>
+
+          <p>{{item.producto}}</p>
+          <p>{{item.precio_compra | currency: 'USD': 'symbol'}}</p>
+
+          <ion-button expand="small" color="danger" outline (click)="_ss.remove_item(i)" >
+           Delete
+          </ion-button>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+
+    <hr>
+    <ion-grid>
+      <ion-row>
+        <ion-col>
+          <h3>
+            <strong>Total:</strong>    &nbsp;    &nbsp;
+            <span style="color:red;">{{_ss.total_store  | currency: 'USD': 'symbol' }}</span>
+          </h3>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+
+    <ion-button expand="full" color="primary" class="rounded" shape="round" (click)="_ss.do_order()">
+     Finish Order
+    </ion-button>
+
+  </div>
+</ion-content>

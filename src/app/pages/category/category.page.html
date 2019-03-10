@@ -1,0 +1,16 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title text-center>Category</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content >
+
+  <ion-list >
+    <ion-item button *ngFor="let category of _ps.categories" (click)="showByCategory(category)" >
+        <ion-icon [name]="category.icono" item-left style="color: #FFF"> </ion-icon>
+        <ion-label>  {{category.linea}}</ion-label>
+    </ion-item>
+  </ion-list>
+
+</ion-content>

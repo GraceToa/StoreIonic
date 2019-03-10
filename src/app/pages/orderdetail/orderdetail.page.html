@@ -1,0 +1,25 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Order {{order.id}}</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content  text-center>
+  <ion-list >
+    <ion-item  *ngFor="let item of order.detalle" >
+      <ion-label>
+        <img [src]="item.codigo | image"  width="120" height="120" >
+
+       <ion-text >
+         <h2>{{item.producto}}</h2>
+       </ion-text>
+       <p>{{item.descripcion}}</p>
+       <p>{{item.precio_compra | currency: 'USD': 'symbol' }}</p>
+
+     </ion-label>
+    </ion-item>
+  </ion-list>
+  <ion-button expand="small" color="danger" fill="outline" (click)="delete_order(order.id)" >
+   Delete  </ion-button>
+
+</ion-content>

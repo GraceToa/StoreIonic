@@ -1,0 +1,40 @@
+<ion-header>
+  <ion-toolbar >
+    <ion-buttons slot= "start" >
+        <ion-back-button defaultHref="home">
+        </ion-back-button>
+      </ion-buttons>
+    </ion-toolbar >
+</ion-header>
+
+<ion-content padding>
+   <p text-center>
+     <img src="assets/img/profile.jpg"  class="circle-pic"/>
+   </p>
+
+   <ion-card>
+    <ion-card-header>
+      <ion-card-title>{{user.nombre}} {{user.apellido}}</ion-card-title>
+    </ion-card-header>
+
+    <ion-item color="white">
+       <ion-icon name="mail" slot="start"></ion-icon>
+       <ion-label>{{user.correo}}</ion-label>
+
+     </ion-item >
+     <ion-item color="white">
+        <ion-icon name="pin" slot="start"></ion-icon>
+        <ion-label>{{user.direccion}}</ion-label>
+      </ion-item>
+
+      <ion-item  color="white">
+         <ion-icon name="globe" slot="start"></ion-icon>
+         <ion-label>{{user.pais}}</ion-label>
+       </ion-item>
+
+    <ion-card-content>
+      Your personal data is registered in our database.
+    </ion-card-content>
+  </ion-card>
+
+</ion-content>

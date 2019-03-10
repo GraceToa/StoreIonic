@@ -1,0 +1,32 @@
+<ion-header >
+  <ion-toolbar >
+    <ion-button  (click)="closeModal()" >
+         <ion-icon name="remove-circle-outline"></ion-icon>
+    </ion-button>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  <div class="color_log">
+    <br><br>
+      <ion-item class="ion-item-border">
+        <ion-label position="floating">
+          <ion-icon name="contact"></ion-icon>
+          Email
+        </ion-label>
+        <ion-input type="email" [(ngModel)]="email"></ion-input>
+      </ion-item>
+      <br>  <br>
+      <ion-item class="ion-item-border">
+        <ion-label position="floating">
+          <ion-icon name="lock" item-left></ion-icon>
+          Password
+        </ion-label>
+        <ion-input type="password" [(ngModel)]="password"></ion-input>
+      </ion-item>
+      <br><br>
+      <ion-button expand="full" (click)="sign_up()" class="rounded" shape="round">
+       Sing Up
+      </ion-button>
+  </div>
+</ion-content>

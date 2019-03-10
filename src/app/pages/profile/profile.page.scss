@@ -1,0 +1,25 @@
+ion-content{
+  --ion-background-color:#38333C;
+}
+.circle-pic{
+  width: 200px;
+  height: 200px;
+  -webkit-border-radius:50%;
+  border-radius: 50%;
+}
+
+ion-card  {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  width: 100% !important;
+  margin: 0 !important;
+}
+ion-card-title{
+  font-size: 1.3rem;
+}
+ion-card-content{
+  text-align: center;
+  font-size: 0.5rem;
+
+}

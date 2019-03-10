@@ -3,6 +3,34 @@
 
 /** Ionic CSS Variables **/
 :root {
+ion-toolbar{
+    --ion-background-color: #38333C;
+    color:white;
+}
+ion-tabs{
+  --ion-background-color: #38333C;
+  color:white !important;
+}
+ion-tab-button{
+  color: white !important;
+
+}
+.tab-selected{
+  color: #2E70EC !important;
+}
+.car_empty{
+  position: relative;
+  top: 30%;
+  font-size: 20px;
+}
+.icon-5x{
+  font-size: 100px;
+}
+.car_number{
+  position: absolute;
+  top: 3px;
+  left: 4px;
+}
   /** primary **/
   --ion-color-primary: #3880ff;
   --ion-color-primary-rgb: 56, 128, 255;

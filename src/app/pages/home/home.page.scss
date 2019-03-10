@@ -1,0 +1,22 @@
+ion-content{
+    --ion-background-color:#38333C;
+}
+p{
+  // color:#3C3A3A;
+  color:white;
+  font-size: 0.8em;
+}
+ion-title{
+		top:25%;
+		font-size: 2.0em;
+		width: 100%;
+		font-weight: bold;
+		color: white;
+	}
+ion-button{
+  --box-shadow:none !important;
+  box-shadow: none !important;
+  border-color: rgba(0,0,0,0) !important;
+  outline: none !important;
+
+}
