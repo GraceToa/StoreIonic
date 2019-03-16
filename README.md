@@ -16,9 +16,11 @@ StoreApp es una aplicación que se puede visualizar tanto para Android como para
 
 ![Captura de pantalla 2019-03-16 a las 11 29 05](https://user-images.githubusercontent.com/10947013/54477948-48859700-480d-11e9-96c5-2ac14a856f7b.png)![Captura de pantalla 2019-03-16 a las 11 30 53](https://user-images.githubusercontent.com/10947013/54477978-8da9c900-480d-11e9-804a-39c77d472fd7.png)
 
-![Captura de pantalla 2019-03-16 a las 11 28 06](https://user-images.githubusercontent.com/10947013/54477988-ab772e00-480d-11e9-8268-2ed9c53f8225.png)![Captura de pantalla 2019-03-16 a las 11 31 09](https://user-images.githubusercontent.com/10947013/54478001-c8abfc80-480d-11e9-971c-fa387e5a3a44.png)
+![Captura de pantalla 2019-03-16 a las 11 31 09](https://user-images.githubusercontent.com/10947013/54478001-c8abfc80-480d-11e9-971c-fa387e5a3a44.png)![Captura de pantalla 2019-03-16 a las 11 31 22](https://user-images.githubusercontent.com/10947013/54478005-e24d4400-480d-11e9-9009-5969d30b85ae.png)
 
-![Captura de pantalla 2019-03-16 a las 11 31 22](https://user-images.githubusercontent.com/10947013/54478005-e24d4400-480d-11e9-9009-5969d30b85ae.png)![Captura de pantalla 2019-03-16 a las 11 31 39](https://user-images.githubusercontent.com/10947013/54478011-fa24c800-480d-11e9-9736-520ccb93d678.png)
+![Captura de pantalla 2019-03-16 a las 11 31 39](https://user-images.githubusercontent.com/10947013/54478011-fa24c800-480d-11e9-9736-520ccb93d678.png)
+
+![Captura de pantalla 2019-03-16 a las 11 28 06](https://user-images.githubusercontent.com/10947013/54477988-ab772e00-480d-11e9-8268-2ed9c53f8225.png)
 
 
 
