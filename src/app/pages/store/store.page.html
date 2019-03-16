@@ -1,6 +1,6 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title text-center>Store</ion-title>
+    <ion-title>Store</ion-title>
     <ion-buttons slot= "start" (click)="closeModal()">
         <ion-icon name="arrow-round-back" color="white" ></ion-icon>
     </ion-buttons>
@@ -26,7 +26,7 @@
           <p>{{item.producto}}</p>
           <p>{{item.precio_compra | currency: 'USD': 'symbol'}}</p>
 
-          <ion-button expand="small" color="danger" outline (click)="_ss.remove_item(i)" >
+          <ion-button expand="small" color="danger"  (click)="_ss.remove_item(i)" >
            Delete
           </ion-button>
         </ion-col>
@@ -39,7 +39,7 @@
         <ion-col>
           <h3>
             <strong>Total:</strong>    &nbsp;    &nbsp;
-            <span style="color:red;">{{_ss.total_store  | currency: 'USD': 'symbol' }}</span>
+            <span style="color:#FFF">{{_ss.total_store  | currency: 'USD': 'symbol' }}</span>
           </h3>
         </ion-col>
       </ion-row>

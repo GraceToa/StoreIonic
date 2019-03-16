@@ -3,23 +3,20 @@
     <ion-buttons slot= "start" (click)="goBack()">
         <ion-icon name="arrow-round-back" ></ion-icon>
     </ion-buttons>
-    <ion-title text-center>{{product.producto}}</ion-title>
+    <ion-title>{{product.producto}}</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content padding>
   <img [src]="product.codigo | image">
   <div>
-    <h5>{{product.producto}}</h5>
-    <p style="color: red">
+    <h5>
       <strong>  Price: </strong> {{product.precio_compra | currency: 'USD': 'symbol'}}
+    </h5>
+    <p  style="color: #ffffff"> <strong>{{product.proveedor}}</strong><br>
+      {{product.producto}}
     </p>
-    <p>  {{product.descripcion}}<br>
-      <strong>
-        {{product.proveedor}}
-      </strong>
-    </p>
-
+    <p>  {{product.descripcion}}<br>  </p>
     <ion-button expand="full" (click)="_ss.add_store(product)" class="rounded" shape="round">
       <ion-icon name="cart" ></ion-icon>
       Add

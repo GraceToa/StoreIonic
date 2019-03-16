@@ -1,5 +1,14 @@
 ion-content{
-    --ion-background-color:#38333C;
+    // --ion-background-color:#38333C;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ebe9f9+0,cec7ec+29,686a7f+100 */
+    --ion-background-color: #bcbcbc;
+    /* Old browsers */
+    --ion-background-color:-moz-linear-gradient(top, #bcbcbc 5%, #1c1c1c 73%, #131313 100%);
+    /* FF3.6-15 */
+    --ion-background-color: -webkit-linear-gradient(top, #bcbcbc 5%,#1c1c1c 73%,#131313 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    --ion-background-color: linear-gradient(to bottom, #bcbcbc 5%,#1c1c1c 73%,#131313 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
 p{
   // color:#3C3A3A;

@@ -3,9 +3,19 @@
 
 /** Ionic CSS Variables **/
 :root {
+ion-content{
+    --ion-background-color: #bcbcbc; /* Old browsers */
+    --ion-background-color: -moz-linear-gradient(top, #bcbcbc 5%, #494949 73%, #494949 100%); /* FF3.6-15 */
+    --ion-background-color: -webkit-linear-gradient(top, #bcbcbc 5%,#494949 73%,#494949 100%); /* Chrome10-25,Safari5.1-6 */
+    --ion-background-color: linear-gradient(to bottom, #bcbcbc 5%,#494949 73%,#494949 100%);
+
+}
 ion-toolbar{
-    --ion-background-color: #38333C;
-    color:white;
+    // --ion-background-color: #38333C;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ebe9f9+0,cec7ec+29,686a7f+100 */
+    --ion-background-color: #bcbcbc;
+    color:black;
+    text-align: center;
 }
 ion-tabs{
   --ion-background-color: #38333C;
@@ -14,6 +24,9 @@ ion-tabs{
 ion-tab-button{
   color: white !important;
 
+}
+ion-list{
+    --ion-background-color: #bcbcbc; /* Old browsers */
 }
 .tab-selected{
   color: #2E70EC !important;

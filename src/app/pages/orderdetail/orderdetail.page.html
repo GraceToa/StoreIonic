@@ -1,25 +1,23 @@
 <ion-header>
   <ion-toolbar>
+    <ion-buttons slot= "start" (click)="goBack()">
+        <ion-icon name="arrow-round-back" ></ion-icon>
+    </ion-buttons>
     <ion-title>Order {{order.id}}</ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content  text-center>
+<ion-content padding text-center>
   <ion-list >
     <ion-item  *ngFor="let item of order.detalle" >
       <ion-label>
         <img [src]="item.codigo | image"  width="120" height="120" >
-
-       <ion-text >
          <h2>{{item.producto}}</h2>
-       </ion-text>
-       <p>{{item.descripcion}}</p>
-       <p>{{item.precio_compra | currency: 'USD': 'symbol' }}</p>
-
+        <p>  {{item.descripcion}}<br>  </p>
+       <p style="color:#ffffff">{{item.precio_compra | currency: 'USD': 'symbol' }}</p>
      </ion-label>
     </ion-item>
   </ion-list>
-  <ion-button expand="small" color="danger" fill="outline" (click)="delete_order(order.id)" >
-   Delete  </ion-button>
-
+  <ion-button expand="small" color="danger"  (click)="delete_order(order.id)" >
+   Delete Order  </ion-button>
 </ion-content>

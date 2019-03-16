@@ -54,7 +54,7 @@ export class UserService {
     this.token = null;
     this.id_usuario = null;
     this.save_storage();
-    this.router.navigateByUrl('/login');
+    this.router.navigateByUrl('/tabs/home');
   }
 
   private save_storage(){

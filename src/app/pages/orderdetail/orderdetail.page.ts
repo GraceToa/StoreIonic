@@ -35,4 +35,8 @@ export class OrderdetailPage implements OnInit {
     })
   }
 
+  goBack(){
+    this.navCtrl.pop();
+  }
+
 }
