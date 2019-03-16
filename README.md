@@ -12,7 +12,7 @@ StoreApp es una aplicación que se puede visualizar tanto para Android como para
 
 ![Captura de pantalla 2019-03-16 a las 11 26 35](https://user-images.githubusercontent.com/10947013/54477368-57694b00-4807-11e9-85f5-d7f1c98e8739.png)![Captura de pantalla 2019-03-16 a las 11 26 59](https://user-images.githubusercontent.com/10947013/54477395-add68980-4807-11e9-8da2-e26ba268dc3e.png)
 
-![Captura de pantalla 2019-03-16 a las 11 27 26](https://user-images.githubusercontent.com/10947013/54477910-e88ef080-480c-11e9-9aa6-54e878b0337a.png)
+![Captura de pantalla 2019-03-16 a las 11 27 26](https://user-images.githubusercontent.com/10947013/54477910-e88ef080-480c-11e9-9aa6-54e878b0337a.png)![Captura de pantalla 2019-03-16 a las 17 21 27](https://user-images.githubusercontent.com/10947013/54478226-1e81a400-4810-11e9-8907-330222fd6e20.png)
 
 ![Captura de pantalla 2019-03-16 a las 11 29 05](https://user-images.githubusercontent.com/10947013/54477948-48859700-480d-11e9-96c5-2ac14a856f7b.png)![Captura de pantalla 2019-03-16 a las 11 30 53](https://user-images.githubusercontent.com/10947013/54477978-8da9c900-480d-11e9-804a-39c77d472fd7.png)
 
@@ -21,6 +21,8 @@ StoreApp es una aplicación que se puede visualizar tanto para Android como para
 ![Captura de pantalla 2019-03-16 a las 11 31 39](https://user-images.githubusercontent.com/10947013/54478011-fa24c800-480d-11e9-9736-520ccb93d678.png)![Captura de pantalla 2019-03-16 a las 11 31 50](https://user-images.githubusercontent.com/10947013/54478131-550aef00-480f-11e9-9055-c2fbb7a8e9c3.png)
 
 ![Captura de pantalla 2019-03-16 a las 11 28 06](https://user-images.githubusercontent.com/10947013/54477988-ab772e00-480d-11e9-8268-2ed9c53f8225.png)![Captura de pantalla 2019-03-16 a las 11 32 17](https://user-images.githubusercontent.com/10947013/54478114-2a209b00-480f-11e9-974e-414fea7f9a0a.png)
+
+![Captura de pantalla 2019-03-16 a las 11 28 20](https://user-images.githubusercontent.com/10947013/54478240-38bb8200-4810-11e9-80fa-9c66f1b3abf9.png)![Captura de pantalla 2019-03-16 a las 17 22 17](https://user-images.githubusercontent.com/10947013/54478247-57217d80-4810-11e9-8f40-8d2ccd922547.png)
 
 
 
