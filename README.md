@@ -1,4 +1,4 @@
-#App Ionic 4
+# App Ionic 4
 
 Aplicación híbrida desarrollada en Ionic Framework, AngularJS, NodeJS.
 
@@ -12,7 +12,7 @@ StoreApp es una aplicación que se puede visualizar tanto para Android como para
 
 ![Captura de pantalla 2019-03-16 a las 11 26 35](https://user-images.githubusercontent.com/10947013/54477368-57694b00-4807-11e9-85f5-d7f1c98e8739.png)![Captura de pantalla 2019-03-16 a las 11 26 59](https://user-images.githubusercontent.com/10947013/54477395-add68980-4807-11e9-8da2-e26ba268dc3e.png)
 
-![Captura de pantalla 2019-03-16 a las 11 27 26](https://user-images.githubusercontent.com/10947013/54477910-e88ef080-480c-11e9-9aa6-54e878b0337a.png)![Captura de pantalla 2019-03-16 a las 17 21 27](https://user-images.githubusercontent.com/10947013/54478226-1e81a400-4810-11e9-8907-330222fd6e20.png)
+![Captura de pantalla 2019-03-16 a las 11 27 26](https://user-images.githubusercontent.com/10947013/54477910-e88ef080-480c-11e9-9aa6-54e878b0337a.png)![Captura de pantalla 2019-03-16 a las 17 27 18](https://user-images.githubusercontent.com/10947013/54478305-e9c21c80-4810-11e9-81a2-497a5c8ca857.png)
 
 ![Captura de pantalla 2019-03-16 a las 11 29 05](https://user-images.githubusercontent.com/10947013/54477948-48859700-480d-11e9-96c5-2ac14a856f7b.png)![Captura de pantalla 2019-03-16 a las 11 30 53](https://user-images.githubusercontent.com/10947013/54477978-8da9c900-480d-11e9-804a-39c77d472fd7.png)
 
