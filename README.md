@@ -20,7 +20,7 @@ StoreApp es una aplicación que se puede visualizar tanto para Android como para
 
 <table border="3" bordercolor="black" align="center">
     <tr>
-        <th colspan="3">iPhone 8 12-2 </th> 
+        <th colspan="3">Andorid and macOS </th> 
     </tr>
     <tr>
         <td><img src="https://user-images.githubusercontent.com/10947013/54477287-dc079980-4806-11e9-8a69-26dcc77d4327.png"             width="250" alt="login"></td>
